@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Web Developer • Graphic Designer • Video Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">OKPALA CHIMAOBI SAMUEL</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </div>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting Digital Experiences That Engage & Convert</h1>
+                <p class="hero-subtitle">Web Developer • Graphic Designer • Video Editor</p>
+                <p class="hero-description">I create visually stunning, high-performance digital solutions that help businesses stand out and achieve their goals.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Start a Project</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>2+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>85%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-subtitle">End-to-end digital solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Responsive, high-performance websites with modern animations and seamless user experiences.</p>
+                    <ul class="service-list">
+                        <li>Custom Website Development</li>
+                        <li>E-commerce Solutions</li>
+                        <li>Performance Optimization</li>
+                        <li>Website Maintenance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Visually compelling designs that communicate your brand's message and captivate your audience.</p>
+                    <ul class="service-list">
+                        <li>Logo & Brand Identity</li>
+                        <li>Social Media Graphics</li>
+                        <li>Marketing Materials</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Engaging video content that tells your story, from short-form social media clips to full productions.</p>
+                    <ul class="service-list">
+                        <li>Promotional Videos</li>
+                        <li>Social Media Content</li>
+                        <li>Motion Graphics</li>
+                        <li>Color Grading & Correction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work across different disciplines</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Graphic Design</button>
+                <button class="filter-btn" data-filter="video">Video Editing</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Web Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/web-project-1.jpg" alt="E-commerce website redesign">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern E-commerce Platform</h3>
+                        <p>Complete redesign of an online retail store with improved UX and 40% faster load times.</p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Design Project 1 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="assets/images/design-project-1.jpg" alt="Brand identity design">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tech Startup Brand Identity</h3>
+                        <p>Complete brand identity including logo, color palette, typography, and marketing materials.</p>
+                        <div class="project-tags">
+                            <span>Adobe Illustrator</span>
+                            <span>Photoshop</span>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video Project 1 -->
+                <div class="project-card" data-category="video">
+                    <div class="project-image">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Corporate Promotional Video</h3>
+                        <p>2-minute brand story video with motion graphics, color grading, and professional voiceover.</p>
+                        <div class="project-tags">
+                            <span>Premiere Pro</span>
+                            <span>After Effects</span>
+                            <span>DaVinci Resolve</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web Project 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/web-project-2.jpg" alt="Portfolio website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Portfolio Website</h3>
+                        <p>Dynamic portfolio with smooth animations, custom CMS, and mobile-responsive design.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>NODE js</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Design Project 2 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="design-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media Campaign Graphics</h3>
+                        <p>Series of engaging social media graphics for a 30-day marketing campaign.</p>
+                        <div class="project-tags">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video Project 2 -->
+                <div class="project-card" data-category="video">
+                    <div class="project-image">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Product Launch Explainer Video</h3>
+                        <p>60-second animated explainer video showcasing key features of a new tech product.</p>
+                        <div class="project-tags">
+                            <span>After Effects</span>
+                            <span>Character Animation</span>
+                            <span>Sound Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm a multidisciplinary digital creator with over 2 years of experience helping businesses transform their online presence. My approach combines technical expertise with creative vision to deliver solutions that not only look impressive but also drive measurable results.</p>
+                    <p>Specializing in web development, graphic design, and video editing allows me to offer comprehensive digital solutions. This means your project maintains visual and functional consistency across all platforms, creating a cohesive brand experience for your audience.</p>
+                    <p>My work has helped clients increase engagement by up to 300%, improve conversion rates, and establish strong brand identities in competitive markets.</p>
+                    <div class="skills">
+                        <h3>Technical Skills & Tools</h3>
+                        <div class="skill-categories">
+                            <div class="skill-category">
+                                <h4>Web Development</h4>
+                                <p>HTML5, CSS3, JavaScript, React, Vue.js, Node.js, WordPress, GSAP</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Design Tools</h4>
+                                <p>Adobe Creative Suite, Figma, Sketch, Canva, Procreate</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Video Editing</h4>
+                                <p>Premiere Pro, After Effects, DaVinci Resolve, Final Cut Pro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="JUPEB.jpeg" alt="OKPALA CHIMAOBI SAMUEL">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your vision to life? Get in touch to discuss your project.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Start Your Project</h3>
+                    <p>Whether you need a new website, branding materials, or engaging video content, I'm here to help you achieve your business objectives with creative, professional solutions.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@alexmorgan.design</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Based In</h4>
+                                <p>Available for remote work worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Project Type</option>
+                                <option value="web">Web Development</option>
+                                <option value="design">Graphic Design</option>
+                                <option value="video">Video Editing</option>
+                                <option value="multiple">Multiple Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">OKPALA CHIMAOBI SAMUEL</a>
+                    <p>Creating digital experiences that drive results.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> OKPALA CHIMAOBI SAMUEL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
